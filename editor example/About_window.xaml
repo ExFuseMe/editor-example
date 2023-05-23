@@ -1,0 +1,16 @@
+﻿<Window x:Class="editor_example.About_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:editor_example"
+        mc:Ignorable="d"
+        Title="About_window" Height="450" Width="800">
+    <Grid>
+        <TextBlock>Работу выполнил Никтин Данил       
+            <Hyperlink NavigateUri="https://github.com/ExFuseMe" RequestNavigate="Hyperlink_RequestNavigate">
+                GitHub
+            </Hyperlink>
+        </TextBlock>
+    </Grid>
+</Window>
